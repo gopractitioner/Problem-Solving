@@ -15,12 +15,12 @@ var compose = function (functions) {
         return x
 
         // solution 2
-        reversedFunctions = functions.reverse();
-        return reversedFunctions.reduce(
-            (accumulator, currentValue) => {
-                return currentValue(accumulator)
-            }, x
-        )
+        // reversedFunctions = functions.reverse();
+        // return reversedFunctions.reduce(
+        //     (accumulator, currentValue) => {
+        //         return currentValue(accumulator)
+        //     }, x
+        // )
     }
 };
 
